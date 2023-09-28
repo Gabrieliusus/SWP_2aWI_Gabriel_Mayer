@@ -1,7 +1,18 @@
-.subheader{
-    background-color: red;
+/* ELEMENT Selector */
+div {
+    background-color: aquamarine;
 }
 
-#content{
-    background-color: green;
+/* id selector */
+#header {
+    font-size: 2rem;
+}
+
+/* Klassenselektor*/
+.subtitle {
+    color: blue;
+}
+
+#text p {
+    background-color: blueviolet;
 }
