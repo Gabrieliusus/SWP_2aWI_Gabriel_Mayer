@@ -5,8 +5,18 @@
     height: 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-
+.box{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
 .left{
     top: 200px;
     left: 0px;
@@ -19,13 +29,11 @@
     font-size: 100px;
 }
 
-.black{
-    background-color: black;
-    height: 30px;
-    width: 30px;
-    justify-content: center;
-    margin-top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bottom{
+    bottom: 0px;
+    position: absolute;
+    background-color: magenta;
+    right: 0px;
+    height: 100px;
+    width: 100px;
 }
