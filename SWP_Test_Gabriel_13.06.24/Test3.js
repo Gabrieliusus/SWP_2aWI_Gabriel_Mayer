@@ -7,6 +7,7 @@ for (let i = 0; i < arr.length; i++) {
     for (let r = 0; r < word.length; r++) {
         if (word[r]=="e") {
             e+=word+" "
+            break
         }
         
     }
