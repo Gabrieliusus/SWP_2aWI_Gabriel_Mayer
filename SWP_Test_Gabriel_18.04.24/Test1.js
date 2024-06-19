@@ -3,6 +3,9 @@ const data = "Hans geht heute schwimmen! das ist gut";
 // Output
 // Hans schwimmen gut
 let arr = data.split (" ")
-for (let i = 0; i < arr.length; i+= 3) {
-   console.log(arr[i])
+let drittes = ""
+for (let i = 0; i < arr.length; i+=3) {
+   drittes+=arr[i]+" "
+   
 }
+console.log(drittes);
