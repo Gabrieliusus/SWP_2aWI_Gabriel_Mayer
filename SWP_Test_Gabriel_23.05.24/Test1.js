@@ -11,14 +11,16 @@
  */ 
 
 const data1 = "4,9,-3,-9,-5,10,2,1,14"; 
-let arr = data1.split(",")
-let summe = 0
-let summe1 = 0
-for (let i = 0; i < arr.length; i++) {
-    let zahl = parseInt (arr[i]);
-    if (zahl%2==0){
-    summe+=zahl
-summe1++}
+let arr1 = data1.split(",");
+
+let summe1 = 0;
+
+for (let i = 0; i < arr1.length; i++) {
+    if (parseInt(arr1[i]) % 2 !== 0) {
+        summe1 += parseInt(arr1[i])
+    }
 }
-let Mittelwert = summe/summe1
+
+let Mittelwert = summe1 / arr1.length;
+
 console.log(Mittelwert);
